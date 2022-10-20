@@ -5,8 +5,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 chromedriver_path = "/usr/local/bin/chromedriver"
 
-
-
 driver = webdriver.Chrome(executable_path=chromedriver_path)
 driver.maximize_window()
 
